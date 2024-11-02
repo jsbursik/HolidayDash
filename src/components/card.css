@@ -1,0 +1,39 @@
+.card {
+  margin: 1em;
+  padding: 1em 2em;
+  max-width: fit-content;
+  color: hsl(203, 50%, 90%);
+  text-shadow: 0 0 4px black;
+  background: rgba(119, 119, 119, 0.116);
+  border: 1px solid black;
+  border-radius: 1em;
+  box-shadow: 0 0 10px 0 rgb(15, 18, 32);
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.card-footer {
+  font-size: 0.8em;
+}
+
+.green {
+  color: #6aff6a;
+}
+
+.red {
+  color: #f85151;
+}
+
+.stat {
+  font-size: 1.75em;
+}

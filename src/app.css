@@ -1,0 +1,72 @@
+* {
+  --top-right: #162d6d;
+  --bot-left: #392452;
+  --bg-300: #0c2e47;
+  --bg-400: #061723;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(4, 40, 46);
+}
+
+body {
+  background: radial-gradient(circle at top right, var(--top-right) 0%, transparent 50%),
+    radial-gradient(circle at bottom left, var(--bot-left) 0%, transparent 75%);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+  font-weight: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  height: 100vh;
+}
+
+.stat-container {
+  display: flex;
+  justify-content: center;
+}
